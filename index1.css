@@ -1,0 +1,77 @@
+.container-fluid{
+   border:2px solid black;
+   height:90px;
+   background-color: #111324;  
+}
+.row{
+   border: 0px solid red;
+   height: 90px;
+   margin:auto;
+   display: flex;
+   /* background-color: #111324; */
+   width: 100%;
+}
+.col{
+   border: 0px solid green;
+   height: 90px;
+   width:10px;
+   display: flex;
+   list-style-type: none;
+   gap:5px;
+   text-align: center;
+   color: white;
+   justify-content: space-evenly;
+}
+#one{
+   display: flex;
+padding-right: 30px;
+justify-content: start;
+}
+#one img{
+   width: 40px;
+}
+#two{
+ padding-top: 30px;
+ gap: 30px;
+  
+}
+#three{
+   padding-top: 30px;
+  justify-content: end;
+  gap: 25px;
+}
+
+#three>button{
+   width: 120px;
+   height: 40px;
+   background-color:skyblue;
+   border-radius: 5px;
+}
+#con3{
+   height: 500px;
+   background-color: white;
+   border: 3px solid black;
+   display: flex;
+}
+.five{
+   height: 500px;
+   border: 3px solid red;
+   width: 720px;
+
+}
+.five img{
+   padding-top: -80px;
+   width: 100%;
+}
+.five h1{
+  padding-top: 40px;
+  padding-right: 10px;
+}
+.five p{
+   padding-top: 40px;
+  padding-right: 10px;
+}
+.five >button{
+justify-content: space-evenly;
+   
+}

@@ -1,0 +1,51 @@
+#navbar{
+    width:100%;
+    height: 100px;
+    background-color: rgb(3, 21, 21);
+    margin: auto;
+    background-color: rgb(242, 172, 242);
+  margin-top: -9px;
+}
+#navbar ~div{
+    background-color: blueviolet;
+    display: flex;
+    width: 300px;
+    text-align: center;
+}
+ #navbar .logo{
+font-size: 45px;
+color: yellow;
+margin-bottom: -70px;
+}
+.two ul{
+display: flex;
+font-size: 30px;
+ gap: 50px; 
+ text-align: center;
+ margin-top: 40px;
+ padding-left: 450px;
+ cursor: pointer;
+}
+#UL{
+    text-decoration: none;
+}
+
+.three ul {
+    display: flex;
+    font-size: 30px;
+     gap: 20px; 
+     text-align: center;
+     margin-top: 40px;
+     padding-left: 1200px;
+     cursor: pointer;
+  
+}
+#btn{
+    background-color: aquamarine;
+    margin-left: 1600px;
+    width: 80px;
+    height: 50px;
+   border-radius: 5px;
+   color: white;
+}
+

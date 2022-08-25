@@ -1,9 +1,11 @@
 .container-fluid{
-   border:2px solid black;
+   border:0px solid black;
    height:90px;
-   background-color: #111324;  
+   background-color: #111324; 
+   width: 100%; 
 }
 .row{
+
    border: 0px solid red;
    height: 90px;
    margin:auto;
@@ -26,6 +28,8 @@
    display: flex;
 padding-right: 30px;
 justify-content: start;
+background-color: #111324; 
+
 }
 #one img{
    width: 40px;
@@ -50,28 +54,295 @@ justify-content: start;
 #con3{
    height: 500px;
    background-color: white;
-   border: 3px solid black;
+   border: 0px solid black;
    display: flex;
 }
 .five{
    height: 500px;
-   border: 3px solid red;
+   border: 0px solid red;
    width: 720px;
 
 }
 .five img{
-   padding-top: -80px;
-   width: 100%;
+   padding-top: -250px;
+   width: 87%;
+
 }
 .five h1{
-  padding-top: 40px;
-  padding-right: 10px;
+  padding-top: 60px;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 50px;
 }
 .five p{
    padding-top: 40px;
   padding-right: 10px;
+  padding-left: 30px;
+  text-align: left;
 }
-.five >button{
-justify-content: space-evenly;
+.five button{
+   margin-top: 30px;
+   width: 47%;
+   height: 70px;
+   border-radius: 5px;
+   border: 1px solid #7856ff;
+  
+}
+.five >p+button{
+justify-content: space-around;
+background-color: aqua;
+width: 47%; 
+height: 70px;
+background-color: #7856ff;
+color: white;
+}
+
+#seven{
+   border: none;
+   padding-top: 30px;
+   height: 320px;
+margin-top :40px;
+   background-color: rgb(241, 246, 246);
+}
+#seven p{
+   padding-top: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+.seven{
+   
+   list-style-type: none;
+   display: flex;
+  gap:50px;
+  justify-content: center;
+   margin: auto;
+   width: 70%;
+
+}
+div h1{
+   text-align: center;
+   padding-top: 40px;
+}
+.row{
+  border: 0px solid red;
+   height: 550px;
+  
+}
+#ten{
+   padding-top: 30px;
+   display:flex;
+   background-color: none;
+}
+ #nine{
+ background-color: beige;
+}
+#ten{
+   background-color:white ;
+   justify-content: space-around;
+}
+#eleven{
+   padding-left: 30px;
+}
+#tweel img{
+   height: 80%;
+   width: 100%;
+ padding-left: 120px;
+ 
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+#thirteen img {
+width: 100%;
+height: 100%;
+
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+#fourteen{
+   margin: auto;
+}
+
+#sixteen {
+   background-color: white;
+   border: 1px solid red;
+   height:30px;
+   width:100%
+}
+h5{
+   margin-top: 550px;
+   text-align: center;
+}
+#btn1{
+   margin: auto;
+   width: 200px;
+   background-color: #7856FF;
+   margin-left: 500px;
+   height: 60px;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+#abc{
+   border: 0px solid blue;
+   display: flex;
+   margin-top: 30px;
+   gap:100px
+}
+#bcd{
+   border: 0px solid red;
+   background-color:skyblue;
+   width: 700px;
+}
+#bcd img {
+width: 100%;
+height: 90%;
+}
+#cde{
+   border: 0px solid red; 
+   width: 500px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#cde h3{
+   text-align: left;
+padding-top: 130px;
+}
+/* #cde p{
+ 
+} */
+#cde button{
+   background-color: #7856ff;
+   width: 200px;
+  color: white;
+   height: 50px;
+   border: none;
+   border-radius: 5px;
+}
+#efg{
+   margin-top: 80px;
+   border: 3px solid blue;
+  background-color: white;
+   height: 500px;
+   display: flex;
+}
+#efg .row{
+   border: 1px solid green;
+   height: 440px;
+}
+#fgh{
+   width:550px;
+
+}
+#fgh img{
+   width:100%;
+ height: 400px;
+}
+#ghi{
+   width: 950px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+#ghi img {
+   width:100%
+}
+#hij{
+   width: 950px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#hij img {
+   width:100%
    
 }
+#ijk h1{
+text-align: left;
+}
+#ijk {
+ margin-left: 80px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#btn2{
+  border: 1px solid blue;
+   width: 40%;
+   color: blue;
+text-align: center; 
+}
+#btn2:hover{
+   background-color: blue;
+   color: white;
+}
+#jkl{
+  margin: auto;
+   border: 1px solid red;
+   display: flex;
+   background: white;
+   height: 400px;
+   margin-top: 50px;
+}
+#klm img{
+   margin: auto;
+ width: 130%;
+}
+
+#nop{
+   margin-top: 40px;
+   border: 12px solid pink;
+   display: flex;
+   background-color: white;
+   height: 500px;
+}
+#opq{
+   height: 300px;
+   width: 500px;
+   border: 1px solid rgb(33, 33, 28);
+}
+#btn3:hover{
+   background-color: blue;
+   color: white;
+}
+
+#opq h1{
+text-align: left;
+}
+#opq button{
+   color: blue;
+   width: 200px;
+   height: 60px;
+   border: 1px solid blue;
+}
+
+#pqr{
+   height: 480px;
+   width: 600px;
+   border: 1px solid rgb(33, 33, 28);
+}
+#pqr img{
+   width: 100%;
+   
+}
+#qrs{
+  
+   margin-top: 30px;
+   background-color: white;
+   border:1px solid purple;
+}
+#rst img {
+   width: 100%;
+}
+#stu{
+   width: 100%;
+   margin-top: 260px;
+   background-color: white;
+   border: 1px solid orangered;
+   height: 400px;
+   background-color:skyblue;
+}
+#stu h1{
+  color: white;
+}
+#stu p{
+   text-align: center;
+   color: white;
+}
+#uvw{
+   border: 1px solid orangered;
+   height: 400px;
+}
+

@@ -40,14 +40,15 @@ let addUser = (event) => {
   let flag = user.checkData(email);
   if (flag) {
     alert("User already exist!");
-    window.location.reload();
-    return;
+    // window.location.reload();
+    window.location.href="check.html"
+   
   }
   if (flag !== 0) {
     alert("Sign Up successful!")
     data.push(user);
     localStorage.setItem("userData", JSON.stringify(data));
-    window.location.href="./login.html";
+    window.location.href="check.html"
   }
 };
 form.addEventListener("submit", addUser);

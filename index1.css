@@ -25,6 +25,16 @@ body{
    width: 100%;
 
 }
+#sign{
+   background-color: blue;
+   color: white;
+}
+#forhead{
+background-color: aquamarine;
+}
+#log{
+color: yellow;
+}
 .col{
    border: 0px solid green;
    height: 90px;
@@ -445,18 +455,21 @@ justify-content: space-around;
    margin-right: 30px;
 }
 #tuv div{
-   border: 1px solid black;
+   border: 0px solid black;
 width:120px;
 height: 250px;
 margin-top: 30px;
 padding-top: 20px;
 margin-right: 30px;
 }
+#sap{
+   text-align: right;
+}
 #img6{
    width: 100%;
 }
 #uvw{
-   border: 1px solid green;
+   border: 0px solid green;
    justify-content: end;
    background-color: #111324;
    width: 100%;
@@ -464,7 +477,7 @@ margin-right: 30px;
 
 }
 #uvw div {
-   border: 1px solid orangered;
+   border: 0px solid orangered;
    width: 50%;
   
    height: 385px;
@@ -485,11 +498,30 @@ margin-right: 30px;
    color: pink;
 }
 #uvw div{
-   border: 1px solid green;
+   border: 0px solid green;
    width: 700px;
 }
+
 #last div{
-border: 1px solid black;
+border: 0px solid black;
 width: 600px;
-height: 100px;
+height: 50px;
+color: white;
+}
+#end img {
+   width: 100%;
+   height: 50px;
+   margin-left: -330px;
+}
+#before{
+   margin-left: -200px;
+   font-size: small;
+}
+#imglast  {
+   margin-right: 130px;
+  
+}
+#imglast img{
+width: 10%;
+height: 50%;
 }

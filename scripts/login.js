@@ -14,7 +14,7 @@ let login = (event)=>{
       })
     if(x.length>0 && y.length>0){
    //   alert('Login Successfull!');
-     window.location.href="check.html"
+     window.location.href="index.html"
      localStorage.setItem('log',true)
      localStorage.setItem('user', JSON.stringify(x[0]))
    //   window.location.href='overview.html'

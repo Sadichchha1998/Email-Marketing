@@ -41,14 +41,14 @@ let addUser = (event) => {
   if (flag) {
     alert("User already exist!");
     // window.location.reload();
-    window.location.href="check.html"
+    window.location.href="index.html"
    
   }
   if (flag !== 0) {
     alert("Sign Up successful!")
     data.push(user);
     localStorage.setItem("userData", JSON.stringify(data));
-    window.location.href="check.html"
+    window.location.href="index.html"
   }
 };
 form.addEventListener("submit", addUser);
